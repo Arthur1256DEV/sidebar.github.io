@@ -45,7 +45,7 @@ function addStyle() {
     Exiticon.insertRule(`.iconExit{
         justify-content: center;
         padding: 0;
-        width: 5vw;
+        width: 10vw;
         height: 10vh;
         flex-direction: row;
     }`)
