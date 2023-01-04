@@ -10,7 +10,7 @@ function addStyle() {
     const Exiticon = new CSSStyleSheet();
 
     navigation.insertRule(`.navigation {
-        width: 10vw;
+        width: 15vw;
     }`);
     
     navigationLi.insertRule(`.list{
