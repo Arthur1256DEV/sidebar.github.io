@@ -69,83 +69,46 @@ a{
     display: flex;
     float: right;
     margin-top: 1vh;
-    margin-right: 4vw;
+    margin-right: 50px;
 }
 
 .iconMenu2{
     display: none;
-    float: right;
-    margin-top: 1vh;
-    margin-right: 27%;
+    float: center;
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: 0px;
 }
 
-.iconSch{
+.iconSch, .iconList, .iconPets, .iconUsers, .iconSettings, .iconVets{
     display: flex;
     margin: auto;
     margin-left: 5px;
     padding: 7px;
-    width: 30vw;
+    width: 200px;
     height: 40px;
     justify-content: left;
     align-items: center;
-    background-color:#8ed7c6e3;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
-.iconList{
+.iconSch:hover, .iconList:hover, .iconPets:hover, .iconUsers:hover, .iconSettings:hover, .iconVets:hover{
     display: flex;
+    background-color:#8ed7c6e3;
     margin: auto;
     margin-left: 5px;
     padding: 7px;
-    width: 30vw;
+    width: 180px;
     height: 40px;
     justify-content: left;
     align-items: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    transform: scaleX(1.1) ;
 }
 
-.iconPets{
-    display: flex;
-    margin: auto;
-    margin-left: 5px;
-    padding: 7px;
-    width: 30vw;
-    height: 40px;
-    justify-content: left;
-    align-items: center;
-}
 
-.iconUsers{
-    display: flex;
-    margin: auto;
-    margin-left: 5px;
-    padding: 7px;
-    width: 30vw;
-    height: 40px;
-    justify-content: left;
-    align-items: center;
-}
-
-.iconVets{
-    display: flex;
-    margin: auto;
-    margin-left: 5px;
-    padding: 7px;
-    width: 30vw;
-    height: 40px;
-    justify-content: left;
-    align-items: center;
-}
-
-.iconSettings{
-    display: flex;
-    margin: auto;
-    margin-left: 5px;
-    padding: 7px;
-    width: 30vw;
-    height: 40px;
-    justify-content: left;
-    align-items: center;
-}
 
 .iconExit{
     display: flex;
@@ -153,19 +116,20 @@ a{
     font-size: small;
     flex-direction: row-reverse;
     padding: 7px;
-    margin-top: 20vh;
+    margin-top: 150px;
+    margin-left: -10px;
     border-radius: 5px;
     height: 75px;
-    width: 30vw;
+    width: 200px;
     align-items: center;
     background-color:#8ed7c6e3;
 }
 
-/*Não mecher, estrutura de navegação*/
+/*Não mexer, estrutura de navegação*/
 .navigation{
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 250px;
     min-height: 100vh;
     background-color: #18c29c;
     overflow-x: hidden;
